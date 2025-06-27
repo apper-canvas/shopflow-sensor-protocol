@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import { motion } from "framer-motion";
-import ApperIcon from "@/components/atoms/ApperIcon";
-import { productService } from "@/services/api/productService";
-import ProductGrid from "@/components/organisms/ProductGrid";
-import ProductFilters from "@/components/organisms/ProductFilters";
+import React, { useEffect, useState } from 'react'
+import { useParams } from 'react-router-dom'
+import { motion } from 'framer-motion'
+import ApperIcon from "@/components/ApperIcon";
+import { productService } from '@/services/api/productService'
+import ProductGrid from '@/components/organisms/ProductGrid'
+import ProductFilters from '@/components/organisms/ProductFilters'
 const CategoryPage = () => {
   const { category } = useParams()
   const [products, setProducts] = useState([])

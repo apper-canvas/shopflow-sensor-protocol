@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { motion } from "framer-motion";
-import ProductFilters from "@/components/organisms/ProductFilters";
-import ProductGrid from "@/components/organisms/ProductGrid";
+import ApperIcon from "@/components/atoms/ApperIcon";
 import { productService } from "@/services/api/productService";
-import AppIcon from "@/components/atoms/AppIcon";
-
+import ProductGrid from "@/components/organisms/ProductGrid";
+import ProductFilters from "@/components/organisms/ProductFilters";
 const CategoryPage = () => {
   const { category } = useParams()
   const [products, setProducts] = useState([])
@@ -137,10 +136,10 @@ const CategoryPage = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           className="mb-8"
-        >
+>
 <div className="flex items-center gap-4 mb-4">
             <div className="w-16 h-16 bg-gradient-to-br from-primary-600 to-pink-600 rounded-2xl flex items-center justify-center shadow-lg">
-              <AppIcon name={getCategoryIcon()} size={32} className="text-white" />
+              <ApperIcon name={getCategoryIcon()} size={32} className="text-white" />
             </div>
             <div>
               <h1 className="text-3xl lg:text-4xl font-display font-bold gradient-text">

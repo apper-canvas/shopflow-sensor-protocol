@@ -1,0 +1,352 @@
+{
+  "products": [
+    {
+      "Id": 1,
+      "title": "Premium Wireless Headphones",
+      "description": "High-quality wireless headphones with noise cancellation and premium sound quality. Perfect for music lovers and professionals.",
+      "price": 299.99,
+      "originalPrice": 399.99,
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800&h=800&fit=crop"
+      ],
+      "category": "Electronics",
+      "variants": [
+        {
+          "Id": 1,
+          "name": "Color",
+          "options": ["Black", "White", "Silver"],
+          "priceModifier": 0
+        }
+      ],
+      "inStock": true,
+      "featured": true,
+      "onSale": true,
+      "rating": 4.8,
+      "reviewCount": 127
+    },
+    {
+      "Id": 2,
+      "title": "Smart Fitness Watch",
+      "description": "Advanced fitness tracking with heart rate monitoring, GPS, and 7-day battery life. Track your health and stay connected.",
+      "price": 249.99,
+      "originalPrice": 299.99,
+      "images": [
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=800&h=800&fit=crop"
+      ],
+      "category": "Electronics",
+      "variants": [
+        {
+          "Id": 2,
+          "name": "Size",
+          "options": ["38mm", "42mm", "46mm"],
+          "priceModifier": 0
+        },
+        {
+          "Id": 3,
+          "name": "Band",
+          "options": ["Sport", "Leather", "Metal"],
+          "priceModifier": 50
+        }
+      ],
+      "inStock": true,
+      "featured": true,
+      "onSale": true,
+      "rating": 4.6,
+      "reviewCount": 89
+    },
+    {
+      "Id": 3,
+      "title": "Organic Cotton T-Shirt",
+      "description": "Comfortable and sustainable organic cotton t-shirt. Perfect for everyday wear with a modern fit and eco-friendly materials.",
+      "price": 29.99,
+      "originalPrice": 39.99,
+      "images": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1485145782098-4f5fd605a66b?w=800&h=800&fit=crop"
+      ],
+      "category": "Clothing",
+      "variants": [
+        {
+          "Id": 4,
+          "name": "Size",
+          "options": ["XS", "S", "M", "L", "XL", "XXL"],
+          "priceModifier": 0
+        },
+        {
+          "Id": 5,
+          "name": "Color",
+          "options": ["White", "Black", "Navy", "Gray", "Green"],
+          "priceModifier": 0
+        }
+      ],
+      "inStock": true,
+      "featured": false,
+      "onSale": true,
+      "rating": 4.4,
+      "reviewCount": 156
+    },
+    {
+      "Id": 4,
+      "title": "Premium Coffee Beans",
+      "description": "Single-origin coffee beans from Ethiopian highlands. Rich, complex flavor with notes of chocolate and citrus. Freshly roasted.",
+      "price": 24.99,
+      "originalPrice": 24.99,
+      "images": [
+        "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=800&h=800&fit=crop"
+      ],
+      "category": "Food",
+      "variants": [
+        {
+          "Id": 6,
+          "name": "Grind",
+          "options": ["Whole Bean", "Coarse", "Medium", "Fine", "Espresso"],
+          "priceModifier": 0
+        },
+        {
+          "Id": 7,
+          "name": "Size",
+          "options": ["250g", "500g", "1kg"],
+          "priceModifier": 15
+        }
+      ],
+      "inStock": true,
+      "featured": true,
+      "onSale": false,
+      "rating": 4.9,
+      "reviewCount": 203
+    },
+    {
+      "Id": 5,
+      "title": "Minimalist Desk Lamp",
+      "description": "Modern LED desk lamp with adjustable brightness and color temperature. Perfect for work, study, or ambient lighting.",
+      "price": 89.99,
+      "originalPrice": 119.99,
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=800&fit=crop"
+      ],
+      "category": "Home",
+      "variants": [
+        {
+          "Id": 8,
+          "name": "Color",
+          "options": ["White", "Black", "Silver"],
+          "priceModifier": 0
+        }
+      ],
+      "inStock": true,
+      "featured": false,
+      "onSale": true,
+      "rating": 4.5,
+      "reviewCount": 74
+    },
+    {
+      "Id": 6,
+      "title": "Wireless Phone Charger",
+      "description": "Fast wireless charging pad compatible with all Qi-enabled devices. Sleek design with LED indicator and foreign object detection.",
+      "price": 39.99,
+      "originalPrice": 49.99,
+      "images": [
+        "https://images.unsplash.com/photo-1585979374699-14076677eb50?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1609592088317-dac87b306100?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1626382734756-2edcacdd7397?w=800&h=800&fit=crop"
+      ],
+      "category": "Electronics",
+      "variants": [
+        {
+          "Id": 9,
+          "name": "Power",
+          "options": ["10W", "15W", "20W"],
+          "priceModifier": 10
+        }
+      ],
+      "inStock": true,
+      "featured": true,
+      "onSale": true,
+      "rating": 4.3,
+      "reviewCount": 92
+    },
+    {
+      "Id": 7,
+      "title": "Designer Sunglasses",
+      "description": "Premium polarized sunglasses with UV400 protection. Classic aviator style with modern materials and superior comfort.",
+      "price": 159.99,
+      "originalPrice": 199.99,
+      "images": [
+        "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1508296695146-257a814070b4?w=800&h=800&fit=crop"
+      ],
+      "category": "Accessories",
+      "variants": [
+        {
+          "Id": 10,
+          "name": "Frame Color",
+          "options": ["Black", "Gold", "Silver", "Tortoise"],
+          "priceModifier": 0
+        },
+        {
+          "Id": 11,
+          "name": "Lens Color",
+          "options": ["Gray", "Brown", "Green", "Blue"],
+          "priceModifier": 20
+        }
+      ],
+      "inStock": true,
+      "featured": false,
+      "onSale": true,
+      "rating": 4.7,
+      "reviewCount": 118
+    },
+    {
+      "Id": 8,
+      "title": "Yoga Mat Pro",
+      "description": "Professional-grade yoga mat with superior grip and cushioning. Non-slip surface, eco-friendly materials, and lifetime warranty.",
+      "price": 79.99,
+      "originalPrice": 79.99,
+      "images": [
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1591027395737-3d3b5bfd0654?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800&h=800&fit=crop"
+      ],
+      "category": "Sports",
+      "variants": [
+        {
+          "Id": 12,
+          "name": "Color",
+          "options": ["Purple", "Blue", "Green", "Pink", "Black"],
+          "priceModifier": 0
+        },
+        {
+          "Id": 13,
+          "name": "Thickness",
+          "options": ["4mm", "6mm", "8mm"],
+          "priceModifier": 15
+        }
+      ],
+      "inStock": true,
+      "featured": true,
+      "onSale": false,
+      "rating": 4.8,
+      "reviewCount": 167
+    },
+    {
+      "Id": 9,
+      "title": "Ceramic Plant Pot",
+      "description": "Handcrafted ceramic plant pot with drainage hole and saucer. Beautiful glazed finish perfect for indoor plants and herbs.",
+      "price": 34.99,
+      "originalPrice": 44.99,
+      "images": [
+        "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=800&fit=crop"
+      ],
+      "category": "Home",
+      "variants": [
+        {
+          "Id": 14,
+          "name": "Size",
+          "options": ["Small (4\")", "Medium (6\")", "Large (8\")", "XL (10\")"],
+          "priceModifier": 10
+        },
+        {
+          "Id": 15,
+          "name": "Color",
+          "options": ["White", "Terracotta", "Navy", "Sage", "Charcoal"],
+          "priceModifier": 0
+        }
+      ],
+      "inStock": true,
+      "featured": false,
+      "onSale": true,
+      "rating": 4.6,
+      "reviewCount": 85
+    },
+    {
+      "Id": 10,
+      "title": "Bluetooth Speaker",
+      "description": "Portable wireless speaker with 360-degree sound, waterproof design, and 12-hour battery life. Perfect for outdoor adventures.",
+      "price": 129.99,
+      "originalPrice": 159.99,
+      "images": [
+        "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1564424224651-35cb13ff2c1e?w=800&h=800&fit=crop"
+      ],
+      "category": "Electronics",
+      "variants": [
+        {
+          "Id": 16,
+          "name": "Color",
+          "options": ["Black", "Blue", "Red", "Green"],
+          "priceModifier": 0
+        }
+      ],
+      "inStock": true,
+      "featured": true,
+      "onSale": true,
+      "rating": 4.4,
+      "reviewCount": 134
+    },
+    {
+      "Id": 11,
+      "title": "Premium Leather Wallet",
+      "description": "Handcrafted genuine leather wallet with RFID blocking technology. Multiple card slots, bill compartment, and coin pocket.",
+      "price": 89.99,
+      "originalPrice": 89.99,
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1627123424574-724758594e93?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=800&h=800&fit=crop"
+      ],
+      "category": "Accessories",
+      "variants": [
+        {
+          "Id": 17,
+          "name": "Color",
+          "options": ["Black", "Brown", "Tan", "Navy"],
+          "priceModifier": 0
+        }
+      ],
+      "inStock": true,
+      "featured": false,
+      "onSale": false,
+      "rating": 4.7,
+      "reviewCount": 98
+    },
+    {
+      "Id": 12,
+      "title": "Artisan Chocolate Box",
+      "description": "Curated selection of handcrafted chocolates from premium cocoa beans. 12 pieces featuring unique flavors and artistic designs.",
+      "price": 49.99,
+      "originalPrice": 59.99,
+      "images": [
+        "https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1511381939415-e44015466834?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1606312619070-d48b4c652a52?w=800&h=800&fit=crop"
+      ],
+      "category": "Food",
+      "variants": [
+        {
+          "Id": 18,
+          "name": "Size",
+          "options": ["6-piece", "12-piece", "24-piece"],
+          "priceModifier": 25
+        }
+      ],
+      "inStock": true,
+      "featured": true,
+      "onSale": true,
+      "rating": 4.9,
+      "reviewCount": 76
+    }
+  ]
+}
